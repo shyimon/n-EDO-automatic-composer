@@ -1,16 +1,12 @@
 # n-EDO Automatic Composer
-## ⚠️ The project is currently a mess
-The project hit its initial goal so i decided to upload it, but it's quite messy.
-I'm not sure about the copyight issues that might emerge by putting amen break slices here, I'll keep an eye on that.
-
-Also, the documentation is very minimal for now. The few comments and labels are in mixed language (some in italian, some in english).
+Pure Data patch developed for a University Project, then developed some more for personal interest.
 
 ## 🔧 What does this patch do?
 * It generates a breakbeat you can control the randomness of with the parameter beat_randomness;
 * It generates a harmony in triads with respects to the EDO scale chosen;
 * It generates a melody in the same fashion.
 
-You can control the BPM, the beat randomness, the EDO, and mix the four channels (amen break, synthesized drums, harmony and melody) and the master separately. You can also control the master frequency but it resets the melody envelope, i'll have to look into that.
+You can control the BPM, the beat randomness, the EDO, and mix the four channels (amen break, synthesized drums, harmony and melody) and the master separately. You can also control the master frequency also.
 Finally, you can start and stop the whole thing via the sequencer control toggle.
 
 The patch is developed with controls from the Akai MIDImix in mind; even then, it's quite finnicky. You'll need to push 'send all' and mess around with some knobs to make it work properly, but here is a reference for the MIDI controls, I hope it helps
